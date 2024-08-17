@@ -1,0 +1,13 @@
+{
+  "name": "juliusstoerrle/data-document-backup-contract",
+  "description": "Extensible PHP library to export domain data into a formatted document stored in a remote storage for backup purposes. This library contains the shared model that must be provided by a downstream project.",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "DataDocumentBackup\\Contract\\": "src/"
+    }
+  }
+}
